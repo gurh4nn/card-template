@@ -9,17 +9,30 @@ body {
     background-color: #F2F2F2;
 }
 
-@media only screen and (min-width: 750px) {
+.card {
+    background-color: white;
+}
+
+.top,
+.content-text,
+.alt {
+    font-family: Open Sans;
+}
+
+.content-title {
+    font-family: DM Serif Display;
+}
+
+@media only screen and (min-width: 884px) {
     .card {
         margin: 10px 100px 50px 0px;
-        width: 1002px;
+        width: 100%;
         height: 320px;
         border: 1px;
         left: 48px;
         top: 32px;
         border-radius: 10px;
         overflow: auto;
-        background-color: white;
     }
     .card-img {
         float: left;
@@ -33,7 +46,6 @@ body {
     }
     .top {
         padding-bottom: 10px;
-        font-family: Open Sans;
         font-style: normal;
         color: #6E798C;
     }
@@ -55,7 +67,6 @@ body {
         padding-right: 20px;
     }
     .content-title {
-        font-family: DM Serif Display;
         font-style: normal;
         font-weight: normal;
         font-size: 38px;
@@ -64,7 +75,6 @@ body {
         margin-block-end: 0.50em;
     }
     .content-text {
-        font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
@@ -87,7 +97,6 @@ body {
     .editor-name {
         padding-top: 9px;
         padding-left: 5px;
-        font-family: Open Sans;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -96,7 +105,6 @@ body {
     .read {
         float: right;
         padding-top: 12px;
-        font-family: Open Sans;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -109,13 +117,12 @@ body {
     }
 }
 
-@media only screen and (min-width: 390px) and (max-width: 749px) {
+@media only screen and (min-width: 390px) and (max-width: 883px) {
     .card {
         margin: 10px auto 50px auto;
         width: 318px;
         border-radius: 10px;
         overflow: auto;
-        background-color: white;
     }
     .card-img {
         width: auto;
@@ -124,11 +131,11 @@ body {
     .card-img-first {
         width: 100%;
         height: 168px;
+        object-fit: cover;
     }
     .top {
         padding-bottom: 10px;
         color: #6E798C;
-        font-family: Open Sans;
         font-style: normal;
         font-size: 10px;
         padding-left: 10px;
@@ -150,7 +157,6 @@ body {
     .content-title {
         padding-top: 7px;
         padding-left: 15px;
-        font-family: DM Serif Display;
         font-style: normal;
         font-weight: normal;
         font-size: 20px;
@@ -158,7 +164,6 @@ body {
     }
     .content-text {
         padding-left: 15px;
-        font-family: Open Sans;
         font-style: normal;
         font-weight: normal;
         font-size: 12px;
@@ -166,7 +171,6 @@ body {
         color: #374A59;
     }
     .content-bottom {
-        font-family: Open Sans;
         font-style: normal;
         font-weight: 600;
         font-size: 11px;
@@ -205,10 +209,9 @@ body {
     .card {
         margin: 10px auto 25px auto;
         border-radius: 10px;
-        width: 340px;
+        width: 100%;
         height: 100px;
         overflow: auto;
-        background-color: white;
         display: flex;
     }
     .card-img {
@@ -217,11 +220,11 @@ body {
     }
     .card-img-first {
         height: 100%;
+        object-fit: cover;
     }
     .top {
         padding-left: 10px;
         color: #6E798C;
-        font-family: Open Sans;
         font-style: normal;
         font-size: 11px;
         line-height: 15px;
@@ -241,7 +244,6 @@ body {
         margin-left: 13px;
     }
     .content-title {
-        font-family: DM Serif Display;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
